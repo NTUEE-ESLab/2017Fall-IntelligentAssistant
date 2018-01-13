@@ -85,7 +85,7 @@ def main():
     global SoundLevel, CurrentTemp, SongPlayer
     # getTempAndHumity()
     ### initialize
-    subprocess.call(['sudo', 'insmod', './dht11.ko'])
+    subprocess.call(['sudo', 'insmod', './dht11/dht11.ko'])
     # subprocess.call(['sudo', 'insmod', './dht11.ko'])
     fanDevice = BLE.BLEdevice()
     CurrentTemp = getTemp()
