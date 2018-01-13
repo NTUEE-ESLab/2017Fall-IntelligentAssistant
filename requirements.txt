@@ -1,0 +1,5 @@
+SpeechRecognition
+gTTS
+beautifulsoup4
+pexpect
+RPi.GPIO

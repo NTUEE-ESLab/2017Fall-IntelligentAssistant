@@ -56,7 +56,7 @@ def getTempAndHumity():
     return sstr
 
 def getTemp():
-    subprocess.call(['sudo', 'insmod', '~/eslab/final/dht11.ko'])
+    # subprocess.call(['sudo', 'insmod', '~/eslab/final/dht11.ko'])
     tmp = str(subprocess.check_output(['sudo', 'cat', '/dev/DHT11']))
     tmp = tmp.split('\\n')
     hum = tmp[0][-5:-1]
@@ -85,7 +85,7 @@ def main():
     global SoundLevel, CurrentTemp, SongPlayer
     # getTempAndHumity()
     ### initialize
-    subprocess.call(['sudo', 'insmod', './eslab/final/dht11.ko'])
+    subprocess.call(['sudo', 'insmod', './dht11.ko'])
     # subprocess.call(['sudo', 'insmod', './dht11.ko'])
     fanDevice = BLE.BLEdevice()
     CurrentTemp = getTemp()
