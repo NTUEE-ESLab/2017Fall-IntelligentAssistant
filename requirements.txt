@@ -3,3 +3,4 @@ gTTS
 beautifulsoup4
 pexpect
 RPi.GPIO
+PyAudio

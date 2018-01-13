@@ -9,6 +9,8 @@
  	2. L298N
  	3. 直流馬達(小電扇)
 
+## Usage
+    (請見網頁的Usage部分)
 ## Progress
 
 ### Tizonia
