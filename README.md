@@ -1,6 +1,6 @@
 # 2017Fall-IntelligentAssistant
 ## 網址
-	[https://2017fall-intelligentassistant.weebly.com/](https://2017fall-intelligentassistant.weebly.com/)
+	[Webpage](https://2017fall-intelligentassistant.weebly.com/)
 ## Hardware requirement
 - for Rpi
 	1. USB音效卡、麥克風、喇叭
