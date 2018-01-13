@@ -47,3 +47,11 @@ sudo cat /dev/DHT11
 ### Pexpect
 Pexpect套件是用來執行gatttool的工具，比起Subprocess，他對其他process的互動比較強大，因此可以滿足我們拿來執行gatttool並與Arudino互動的需求。
 
+ Speech Recognition
+使用SpeechRecognition套件，來做語音辨識的工作，套件內含八種不同的語音辨識介面。我們取用的是google speech recognition，並使用公用的google金鑰，傳入麥克風收到的音訊，將語音訊息傳到google端運算，並回傳辨識出來的text。
+辨識速度受到網路速度影響大，平均辨識速度約在1到2秒左右，長的字串需更多時間，有時會有卡住的問題，所以另外裝了一個LED燈來當作是否以準備好接收語音的信號。
+
+### gTTS
+gTTS(google text to speech)是一個簡單的小工具，主要做的事情是將輸入的text，丟到google translate上，抓取其音訊，再存成mp3檔。可將其import至python code裡去call他的function，亦可以利用command line來生成想要的音訊檔案。
+在這裡我們用來播放聲音訊息的軟體為mpv player。
+
